@@ -1,0 +1,30 @@
+body {
+  margin: 10px;
+  height: 200vh;
+}
+.boxes {
+  border: 3px solid lightseagreen;
+  position: relative;
+}
+
+.box {
+  width: 5rem;
+  height: 3rem;
+}
+
+.box-one {
+  background-color: yellow;
+}
+
+.box-two {
+  background-color: green;
+  position: fixed;
+  top: 0%;
+  left: 2rem;
+  right: 2rem;
+  width: auto;
+}
+
+.box-three {
+  background-color: blue;
+}
